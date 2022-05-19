@@ -1,0 +1,39 @@
+//
+// avatar.scss
+//
+
+.avatar-xs {
+  height: auto;
+  width: 2.3rem;
+}
+
+.avatar-sm {
+  height: auto;
+  width: 3rem;
+}
+
+.avatar-md {
+  height: auto;
+  width: 4.5rem;
+}
+
+.avatar-lg {
+  height: auto;
+  width: 5.5rem;
+}
+
+.avatar-xl {
+  height: auto;
+  width: 7.5rem;
+}
+
+.avatar-title {
+  align-items: center;
+  background-color: $primary;
+  color: $white;
+  display: flex;
+  font-weight: $font-weight-medium;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}

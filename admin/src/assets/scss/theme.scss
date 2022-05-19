@@ -1,0 +1,350 @@
+// Light Theme
+@import "./bootstrap.scss";
+@import "./app.scss";
+
+// Dark Theme
+// @import "./bootstrap-dark.scss";
+// @import "./app-dark.scss";
+
+//RTL Mode
+// @import "./bootstrap.scss";
+// @import "./app-rtl.scss";
+
+@import "./icons.scss";
+
+
+// Theme Custom Scss for react version
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y,
+.ps__rail-y {
+  width: auto !important;
+}
+.rdw-editor-main {
+  border: 1px solid $card-border-color !important;
+  border-radius: 4px !important;
+  min-height: 130px !important;
+}
+
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.dataTables_filter {
+  float: right;
+}
+
+.dataTables_paginate .pagination {
+  float: right;
+}
+
+.rdw-editor-wrapper {
+  min-height: 180px !important;
+}
+
+.ReactModal__Overlay {
+  z-index: 10001 !important;
+}
+
+
+.react-datepicker-wrapper {
+  .form-control {
+    width: 405% !important;
+  }
+}
+
+.needsclick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropzone {
+  h3 {
+    text-align: center !important;
+  }
+  div {
+    min-height: 200px !important;
+  }
+  min-height: 200px !important;
+}
+
+input[type="radio"] + label {
+  cursor: pointer !important;
+}
+
+.topnav .navbar-nav .nav-item .nav-link.active {
+  color: $primary !important;
+}
+.input-color{
+  color: $input-color !important;
+}
+.rangeslider__fill{
+  background-color: $primary !important;
+}
+.rating-container {
+  background-color: transparent !important;
+}
+
+.button-reveal-password {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+}
+
+.button-reveal-password .mdi-eye, .button-reveal-password .mdi-eye-off {
+  font-size: 22px;
+}
+
+.change-password input::-webkit-contacts-auto-fill-button, .change-password input::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+.register-page input::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+
+@include media-breakpoint-down(md) {
+  .bs-select, .mdb-datatable-filter {
+    width: 100%;
+
+    label {
+      width: 100%
+    }
+
+    select {
+      margin-left: 0 !important;
+    }
+  }
+
+  .table-bordered th:nth-child(2), .table-bordered td:nth-child(2) {
+    min-width: 200px;
+  }
+
+  .table-bordered th:nth-child(4), .table-bordered td:nth-child(4) {
+    min-width: 200px;
+  }
+
+  .fc-header-toolbar {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// Cards for all post types.
+
+.fm-cards .card-body {
+  height: 100%;
+}
+
+.card-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.card-status-area {
+display: flex;
+justify-content: flex-end;
+}
+
+.card-actions-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fm-cards .badge {
+  padding: 0.7em 1em 0.5em;
+}
+
+.fm-cards .current-page button {
+  font-weight: 700;
+  color: $dark;
+}
+
+.fm-cards .pagination {
+  justify-content: center;
+}
+
+.card-extra-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-extra-info h5 {
+  width: 100%;
+}
+
+.author-section img {
+  border: 1px solid rgba($color: #000000, $alpha: 0.1);
+}
+
+.categories {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+
+.categories span:first-child {
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 959px) {
+  .card-content-area {
+    text-align: center;
+
+    .display-1 {
+      font-size: 4rem;
+    }
+
+    .display-4 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-actions-area {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .display-1 {
+    font-size: 3.5rem;
+  }
+
+    
+  .card-extra-info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .categories {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+// Post forms
+.fm-forms .mt-auto {
+  margin-top: 0 !important;
+  line-height: 1.7 !important;
+}
+
+.rdw-editor-main {
+  min-height: 500px !important;
+}
+
+.setting-bottom-divider {
+  border-bottom: 1px solid rgba($color: #000000, $alpha: 0.1);
+}
+
+.editor-html {
+  min-height: 400px;
+}
+
+.remove-gal {
+  position: relative;
+}
+
+.remove-gal .remove-image {
+  position: absolute;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.remove-gal img {
+  position: relative;
+}
+
+.remove-gal .remove-overlay {
+  position: absolute;
+  width: calc(100% - 1.5rem);
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+  color: #000;
+  font-size: 10px !important;
+  text-transform: uppercase;
+  background-color: rgba($color: #ffffff, $alpha: 0);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.remove-gal:hover .remove-overlay {
+  opacity: 1;
+  background-color: rgba($color: #ffffff, $alpha: 0.7);
+  transition: all 0.3s ease;
+}
+
+// Dashboard details
+.fm-flex-align {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.fm-flex-align p, .fm-flex-align .float-right {
+  transition: all 0.3s ease;
+}
+
+.fm-flex-align:hover p, .fm-flex-align:hover .float-right {
+  color: rgba($color: #ffffff, $alpha: 0.9) !important;
+  transition: all 0.3s ease;
+}
+
+.pagination-arrow {
+  position: relative;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  transform: scale(1.1);
+  margin-left: -1px;
+  line-height: 1.25;
+  color: #6a479c;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.pagination-arrow:hover {
+  z-index: 2;
+  color: #462f67;
+  text-decoration: none;
+  background-color: #e9ecef;
+  border-color: #ced4da;
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,21 @@
+export const TRY_LOGIN = 'TRY_LOGIN';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+
+export const REQUEST_USER = 'REQUEST_USER';
+export const USER_LOADED = 'USER_LOADED';
+export const AUTH_ERROR = 'AUTH_ERROR';
+
+export const USER_LOGOUT = 'USER_LOGOUT';
+
+export const REGISTER_TRY = 'REGISTER_TRY';
+export const REGISTERING_USER = 'REGISTERING_USER';
+export const REGISTER_FAILED = 'REGISTER_FAILED ';
+
+export const CHANGEPASS_TRY = 'CHANGEPASS_TRY';
+export const CHANGEPASS_GO = 'CHANGEPASS_GO';
+export const CHANGEPASS_FAILED = 'CHANGEPASS_FAILED';
+
+export const NEWPASS_TRY = 'NEWPASS_TRY';
+export const NEWPASS_GO = 'NEWPASS_GO';
+export const NEWPASS_FAILED = 'NEWPASS_FAILED';

@@ -1,0 +1,24 @@
+export const GET_SERIES_TRY = 'GET_SERIES_TRY';
+export const GET_SERIES_GO = 'GET_SERIES_GO';
+export const GET_SERIES_FAILED = 'GET_SERIES_FAILED';
+
+export const GET_ASERIE_TRY = 'GET_ASERIE_TRY';
+export const GET_ASERIE_GO = 'GET_ASERIE_GO';
+export const GET_ASERIE_FAILED = 'GET_ASERIE_FAILED';
+
+export const ADD_SERIE_TRY = 'ADD_SERIE_TRY';
+export const ADD_SERIE_GO = 'ADD_SERIE_GO';
+export const ADD_SERIE_FAILED = 'ADD_SERIE_FAILED';
+
+export const EDIT_SERIE_TRY = 'EDIT_SERIE_TRY';
+export const EDIT_SERIE_GO = 'EDIT_SERIE_GO';
+export const EDIT_SERIE_FAILED = 'EDIT_SERIE_FAILED';
+
+export const REMOVE_SERIE_TRY = 'REMOVE_SERIE_TRY';
+export const REMOVE_SERIE_GO = 'REMOVE_SERIE_GO';
+export const REMOVE_SERIE_FAILED = 'REMOVE_SERIE_FAILED';
+
+export const FILTER_ITEMS = 'FILTER_ITEMS';
+export const CLEAR_FILTER = 'CLEAR_FILTER';
+
+export const CLEAR_CURRENT = 'CLEAR_CURRENT';
